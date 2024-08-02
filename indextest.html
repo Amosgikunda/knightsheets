@@ -1,0 +1,41 @@
+p<?php
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UT-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title> Convert Excel File To PDF</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+    <p> style="text-align:center;"> Drg and drop or Select your Excel file to convert it to PDF instantly</p>
+    <center>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <div id="drop_file_zone" ondrop="false">
+            <div id="drag_upload_file">
+                <p>Drop file here</p>
+                <p>or</p>
+                
+                
+
+            
+            </div>
+            <div>
+                <input type="file"value="selectfile" id="selectfile" />
+              
+            </div>
+            <input type="button" value="submit" onclick="upload.php" >
+            
+
+            <script src="custom.js"></script>
+            </form>
+    </center>
+
+</body>
+
+</html>
